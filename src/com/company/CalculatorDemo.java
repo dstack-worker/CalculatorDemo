@@ -5,7 +5,6 @@ public class CalculatorDemo {
     public static void main(String[] args) {
         int a = 1;
         var b = 0;
-        System.out.println("This is a git calculator demo app");
         System.out.println("Add results in " + Add(a, b));
         System.out.println("Substract results in " + Substract(a, b));
         System.out.println("Multiply results in " + Multiply(a, b));

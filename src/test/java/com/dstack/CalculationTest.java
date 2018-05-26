@@ -10,7 +10,7 @@ public class CalculationTest {
     public void ShouldReturnSumTest() {
         double a = 1;
         double b = 2;
-        double expected = 3;
+        double expected = 4;
 
         double result = CalculatorDemo.Add(a, b);
         assertEquals("unexpected sum", expected, result,0.001);

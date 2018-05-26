@@ -9,7 +9,7 @@ public class Tests {
     public void ShouldReturnSum() {
         double a = 1;
         double b = 2;
-        double expected = 3;
+        double expected = 4;
 
         var result = CalculatorDemo.Add(a, b);
         Assertions.assertEquals(expected, result, "unexpected sum");
